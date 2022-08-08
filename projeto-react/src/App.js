@@ -1,10 +1,10 @@
 import './App.css';
-import Pessoa from './components/Pessoa';
+import Quadrado from './components/Quadrado'
 
 function App() {
   return (
     <div className="App">
-      <Pessoa nome='Vinicius Sousa' idade="23" profissao="Programador" ></Pessoa>
+      <Quadrado></Quadrado>
     </div>
   );
 }
