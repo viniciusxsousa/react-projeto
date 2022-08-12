@@ -1,10 +1,11 @@
 import './App.css';
-import Quadrado from './components/Quadrado'
+import Evento from './components/Evento';
 
 function App() {
   return (
     <div className="App">
-      <Quadrado></Quadrado>
+      <Evento numero='01'></Evento>
+      <Evento numero='02'></Evento>
     </div>
   );
 }
