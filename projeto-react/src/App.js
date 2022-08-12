@@ -1,11 +1,10 @@
 import './App.css';
-import Evento from './components/Evento';
+import Forms from './components/forms';
 
 function App() {
   return (
     <div className="App">
-      <Evento numero='01'></Evento>
-      <Evento numero='02'></Evento>
+      <Forms></Forms>
     </div>
   );
 }
