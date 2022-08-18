@@ -1,11 +1,11 @@
 import './App.css';
 
-import Evento from './components/Evento';
+import Rederizasao from './components/Rederizasao'
 
 function App() {
   return (
     <div className="App">
-      <Evento></Evento>
+      <Rederizasao></Rederizasao>
     </div>
   );
 }
