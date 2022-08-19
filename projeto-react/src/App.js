@@ -1,11 +1,16 @@
 import './App.css';
 
-import Rederizasao from './components/Rederizasao'
+import Lista from './components/Lista'
+
+const itens1 = ['Comida', 'Dormir', 'Vídeo Game']
+const itens2 = []
 
 function App() {
   return (
     <div className="App">
-      <Rederizasao></Rederizasao>
+      <Lista lista={itens1}></Lista>
+      <hr></hr>
+      <Lista lista={itens2}></Lista>
     </div>
   );
 }
