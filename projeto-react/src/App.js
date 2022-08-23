@@ -1,18 +1,21 @@
+import { useState } from 'react';
+
 import './App.css';
 
-import Lista from './components/Lista'
-
-const itens1 = ['Comida', 'Dormir', 'Vídeo Game']
-const itens2 = []
+import PegarNome from './components/PegarNome';
+import MostrarNome from './components/MostrarNome';
 
 function App() {
+
+  const [nome, setNome] = useState()
+
   return (
-    <div className="App">
-      <Lista lista={itens1}></Lista>
-      <hr></hr>
-      <Lista lista={itens2}></Lista>
+    <div>
+      <h1>State Lift</h1>
+      <PegarNome setNome={setNome}></PegarNome>
+      <MostrarNome nome={nome} ></MostrarNome>
     </div>
-  );
+  )
 }
 
 export default App;
