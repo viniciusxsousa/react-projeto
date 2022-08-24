@@ -6,7 +6,7 @@ function Forms(){
     const [pass, setPass] = useState();
 
     function cadastrarUsuario(e){
-        e.preventDefault()
+       
         console.log('Usuário: ' + name)
         console.log('Senha: ' + pass)
     }
