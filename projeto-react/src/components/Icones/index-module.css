@@ -1,0 +1,13 @@
+.social_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item{
+    margin: 0 1em;
+    font-size: 20px;
+    color: cadetblue;
+    cursor: pointer;
+}
